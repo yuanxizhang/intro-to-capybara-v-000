@@ -1,5 +1,5 @@
 class Application < Sinatra::Base
-<<<<<<< HEAD
+  
   get '/' do
     erb :index
   end
