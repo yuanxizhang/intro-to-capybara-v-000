@@ -6,10 +6,5 @@ class Application < Sinatra::Base
 
   post '/greet' do 
   	erb :greet 
-=======
-  get '/' do 
-    erb :index 
->>>>>>> efdfbfe08e11dfddbda374bed4d12cd0574471ba
-  end
 
 end
